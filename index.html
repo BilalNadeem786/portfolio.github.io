@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Muhammad Bilal Nadeem | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Space+Grotesk:wght@500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="background-layer" aria-hidden="true">
+      <span class="orb orb-one"></span>
+      <span class="orb orb-two"></span>
+    </div>
+
+    <header class="site-header">
+      <nav class="navbar" aria-label="Primary">
+        <a class="logo" href="#home">Bilal Nadeem</a>
+        <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navLinks">
+          Menu
+        </button>
+        <div class="nav-links" id="navLinks">
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <div class="dropdown">
+            <button class="dropdown-toggle" id="dropdownToggle" aria-expanded="false">
+              More
+            </button>
+            <div class="dropdown-menu" role="menu">
+              <a role="menuitem" href="#experience">Experience</a>
+              <a role="menuitem" href="#testimonials">Testimonials</a>
+            </div>
+          </div>
+          <a href="#contact">Contact</a>
+          <button class="btn ghost" id="themeToggle" type="button">Light Mode</button>
+        </div>
+      </nav>
+    </header>
+
+    <main class="page">
+      <section class="hero" id="home">
+        <div class="hero-content">
+          <p class="eyebrow">Creative Developer & UI Designer</p>
+          <h1>Muhammad Bilal Nadeem</h1>
+          <p class="lead">
+            I craft modern, interactive experiences that combine sleek visuals, performance, and a
+            touch of glow. Let&apos;s build a portfolio that feels alive on every screen.
+          </p>
+          <div class="hero-actions">
+            <a class="btn primary" href="#projects">View Projects</a>
+            <a class="btn outline" href="#contact">Let&apos;s Talk</a>
+          </div>
+          <div class="hero-highlights">
+            <div class="highlight-card">
+              <h3>5+ Years</h3>
+              <p>Building web experiences and landing pages.</p>
+            </div>
+            <div class="highlight-card">
+              <h3>UI Systems</h3>
+              <p>Designing component libraries with scalable styles.</p>
+            </div>
+          </div>
+        </div>
+        <div class="hero-panel">
+          <div class="panel-card">
+            <p class="panel-title">Currently focused on</p>
+            <h2>Glowing, Responsive Interfaces</h2>
+            <p class="panel-text">
+              JavaScript, CSS animations, and accessible design to bring portfolios to life.
+            </p>
+            <div class="panel-tags">
+              <span>Interaction</span>
+              <span>Responsive UI</span>
+              <span>Dark Mode</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="about">
+        <div class="section-header">
+          <h2>About Me</h2>
+          <p>
+            I&apos;m a frontend developer who loves turning ideas into immersive digital portfolios. I
+            blend clean layouts, micro-interactions, and smooth transitions so every section feels
+            intentional.
+          </p>
+        </div>
+        <div class="about-grid">
+          <div class="about-card">
+            <h3>Design-minded Development</h3>
+            <p>
+              I translate design systems into responsive UI with semantic HTML, CSS, and JavaScript.
+            </p>
+          </div>
+          <div class="about-card">
+            <h3>Human-first Experiences</h3>
+            <p>
+              Every hover, glow, and animation is built with accessibility and performance in mind.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="skills">
+        <div class="section-header">
+          <h2>Skills</h2>
+          <p>Tools and technologies I use to build modern, polished web experiences.</p>
+        </div>
+        <div class="pill-grid">
+          <span class="pill">HTML5</span>
+          <span class="pill">CSS3 / Tailored Animations</span>
+          <span class="pill">JavaScript</span>
+          <span class="pill">Responsive Design</span>
+          <span class="pill">UI Prototyping</span>
+          <span class="pill">Accessibility</span>
+          <span class="pill">Performance Optimization</span>
+          <span class="pill">Figma</span>
+        </div>
+      </section>
+
+      <section class="section" id="projects">
+        <div class="section-header">
+          <h2>Featured Projects</h2>
+          <p>Interactive work that pairs glowy aesthetics with clean, functional UX.</p>
+        </div>
+        <div class="project-grid">
+          <article class="project-card">
+            <h3>Neon Portfolio</h3>
+            <p>
+              A dark-mode portfolio with floating gradients, smooth scroll, and animated section
+              reveals.
+            </p>
+            <div class="project-tags">
+              <span>UI</span>
+              <span>Animations</span>
+              <span>Branding</span>
+            </div>
+            <a class="btn small" href="#contact">Request a walkthrough</a>
+          </article>
+          <article class="project-card">
+            <h3>Product Launch Page</h3>
+            <p>
+              High-conversion landing page with hero video, timeline, and bold CTA highlights.
+            </p>
+            <div class="project-tags">
+              <span>Landing</span>
+              <span>Responsive</span>
+              <span>CTA</span>
+            </div>
+            <a class="btn small" href="#contact">See the case study</a>
+          </article>
+          <article class="project-card">
+            <h3>Interactive Dashboard</h3>
+            <p>
+              Data-rich UI with glassmorphism panels, chart placeholders, and keyboard-friendly
+              navigation.
+            </p>
+            <div class="project-tags">
+              <span>Dashboard</span>
+              <span>UX</span>
+              <span>Data</span>
+            </div>
+            <a class="btn small" href="#contact">Preview UI</a>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="experience">
+        <div class="section-header">
+          <h2>Experience</h2>
+          <p>A quick snapshot of how I deliver polished results with modern front-end tooling.</p>
+        </div>
+        <div class="timeline">
+          <div class="timeline-item">
+            <span class="timeline-date">2024 - Present</span>
+            <h3>UI Engineer · Freelance</h3>
+            <p>Partnering with startups to craft responsive landing pages and portfolio brands.</p>
+          </div>
+          <div class="timeline-item">
+            <span class="timeline-date">2022 - 2024</span>
+            <h3>Frontend Developer · Creative Studio</h3>
+            <p>
+              Built design systems and interactive experiences for product launches and marketing
+              teams.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="testimonials">
+        <div class="section-header">
+          <h2>Testimonials</h2>
+          <p>What collaborators say about the experience of working with me.</p>
+        </div>
+        <div class="testimonial-grid">
+          <figure class="testimonial-card">
+            <p>
+              “Bilal transforms ideas into visuals quickly, and every interaction feels premium.”
+            </p>
+            <figcaption>— Product Manager</figcaption>
+          </figure>
+          <figure class="testimonial-card">
+            <p>“The glow effects, spacing, and responsiveness are always on point.”</p>
+            <figcaption>— Creative Director</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="section" id="contact">
+        <div class="section-header">
+          <h2>Contact</h2>
+          <p>Ready to collaborate? Send me a message directly to my Gmail.</p>
+        </div>
+        <div class="contact-grid">
+          <form
+            class="contact-card"
+            action="mailto:bilalnadeem786@gmail.com"
+            method="post"
+            enctype="text/plain"
+          >
+            <label>
+              Name
+              <input type="text" name="name" placeholder="Your name" required />
+            </label>
+            <label>
+              Email
+              <input type="email" name="email" placeholder="you@email.com" required />
+            </label>
+            <label>
+              Message
+              <textarea name="message" rows="4" placeholder="Tell me about your project"></textarea>
+            </label>
+            <button class="btn primary" type="submit">Send Email</button>
+          </form>
+          <div class="contact-details">
+            <h3>Let&apos;s build something bold.</h3>
+            <p>
+              Prefer a quick email? I&apos;m always reachable at
+              <strong>bilalnadeem786@gmail.com</strong>.
+            </p>
+            <a
+              class="btn outline"
+              href="mailto:bilalnadeem786@gmail.com?subject=Portfolio%20Inquiry"
+              >Email me on Gmail</a
+            >
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© 2026 Muhammad Bilal Nadeem. Crafted with modern glow.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
